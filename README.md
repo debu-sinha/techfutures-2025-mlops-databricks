@@ -5,7 +5,7 @@
        alt="TechFutures 2025 Logo"
        width="42%"
        style="vertical-align: middle; margin-right: 3%;">
-  <img src="images/session-info.jpg"
+  <img src="images/session-info-fixed.jpg"
        alt="Debu Sinha Session Info"
        width="42%"
        style="vertical-align: middle;">
