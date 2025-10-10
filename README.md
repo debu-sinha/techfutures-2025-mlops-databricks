@@ -11,10 +11,8 @@
        style="vertical-align: middle;">
 </p>
 
-
-
 Welcome to the **TechFutures 2025** hands-on workshop:  
-**“End-to-End MLOps Pipelines on Databricks: From Model Training to Production.”**
+**"End-to-End MLOps Pipelines on Databricks: From Model Training to Production."**
 
 Led by **Debu Sinha — Lead Applied AI/ML Engineer at Databricks** and author of  
 *Practical Machine Learning on Databricks*.
@@ -23,7 +21,8 @@ Led by **Debu Sinha — Lead Applied AI/ML Engineer at Databricks** and author o
 
 ## 🧠 Workshop Overview
 
-In this workshop, you’ll learn how to build and scale a **complete MLOps lifecycle** on Databricks:
+In this workshop, you'll learn how to build and scale a **complete MLOps lifecycle** on Databricks:
+
 - Train and track models using **PyTorch + MLflow**
 - Register and govern models with **Unity Catalog**
 - Deploy and serve models using **Model Serving / AI Gateway**
@@ -47,6 +46,7 @@ In this workshop, you’ll learn how to build and scale a **complete MLOps lifec
 <img src="images/1.jpg" alt="Databricks MLOps Lifecycle" width="90%">
 
 **Pipeline Stages**
+
 1. Data Preparation (Delta Tables)  
 2. Model Training (PyTorch + MLflow)  
 3. Experiment Tracking (MLflow UI)  
@@ -61,6 +61,7 @@ In this workshop, you’ll learn how to build and scale a **complete MLOps lifec
 <img src="images/2.jpg" alt="Databricks LLMOps Lifecycle" width="90%">
 
 **Lifecycle Flow**
+
 1. Data (Prompts & Responses)  
 2. Fine-Tuning (Mosaic AI Training)  
 3. Tracking (MLflow Metrics + Prompts)  
@@ -69,6 +70,26 @@ In this workshop, you’ll learn how to build and scale a **complete MLOps lifec
 6. Evaluation (LLM-as-a-Judge, Metrics, Drift)
 
 > 🧩 *MLOps → LLMOps → AgentOps — a unified Databricks AI platform.*
+
+### 🔬 Hands-On LLM Fine-Tuning Demos
+
+To bridge the gap between traditional MLOps (Notebooks 1-2) and the upcoming LLMOps notebook, explore these **interactive fine-tuning examples** that demonstrate the same lifecycle principles applied to Large Language Models:
+
+**[📖 Databricks LLM Fine-Tuning Demos](https://notebooks.databricks.com/demos/llm-fine-tuning/index.html)**
+
+These demos showcase:
+- **Classification Fine-Tuning** — Specialize models for customer support scenarios using the Chat API
+- **RAG Chatbot Fine-Tuning** — Optimize conversational AI with retrieval augmentation and conversation history
+- **Entity Extraction Fine-Tuning** — Train models for specialized extraction tasks (e.g., medical/drug entities)
+- **MLflow Evaluation** — Measure fine-tuning improvements with built-in evaluation frameworks
+
+**Why These Demos Matter:**
+- Apply the **same MLflow + Unity Catalog patterns** from Notebooks 1-2 to LLM workflows
+- See how model tracking, versioning, and serving extend to generative AI
+- Practice evaluation techniques specific to LLMs (including LLM-as-a-Judge)
+- Bridge traditional MLOps foundations with modern LLMOps practices
+
+These demos complement Notebook 3 *(coming soon)* and provide immediate, hands-on practice with production LLM workflows on Databricks.
 
 ---
 
@@ -87,3 +108,20 @@ Clone this repo or import directly into Databricks:
 
 ```bash
 git clone https://github.com/debu-sinha/techfutures-2025-mlops-databricks.git
+```
+
+---
+
+## 📖 Additional Resources
+
+- **[Practical Machine Learning on Databricks](https://www.amazon.com/Practical-Data-Science-Databricks-end/dp/1801812039)** — Debu's comprehensive guide
+- **[Databricks MLOps Workflows](https://docs.databricks.com/machine-learning/mlops/mlops-workflow.html)** — Official documentation
+- **[The Big Book of MLOps](https://www.databricks.com/resources/ebook/the-big-book-of-mlops)** — Free comprehensive guide
+
+---
+
+**Questions?** Reach out during the workshop or connect with Debu on [LinkedIn](https://www.linkedin.com/in/debusinha/)
+
+---
+
+*Made with ❤️ for TechFutures 2025 attendees*
