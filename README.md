@@ -124,4 +124,4 @@ git clone https://github.com/debu-sinha/techfutures-2025-mlops-databricks.git
 
 ---
 
-*Made with ❤️ for TechFutures 2025 attendees*
+*Made for TechFutures 2025 attendees*
